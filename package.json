@@ -1,0 +1,41 @@
+{
+  "name": "react-typescript-fast-refresh-starter",
+  "version": "1.0.0",
+  "description": "Starter React, Typescript, Fash Refresh application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env prod --mode production",
+    "start": "webpack-dev-server --hot --env dev --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoshea/react-typescript-fast-refresh-starter.git"
+  },
+  "author": "Alastair O'Shea <alastair.oshea@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoshea/react-typescript-fast-refresh-starter/issues"
+  },
+  "homepage": "https://github.com/aoshea/react-typescript-fast-refresh-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.1",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "react-refresh": "^0.8.3",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
